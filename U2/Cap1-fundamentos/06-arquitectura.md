@@ -83,6 +83,6 @@ Hibernate funciona como un puente entre el mundo de los objetos Java y las tabla
 4. Query → consultas sobre objetos/BD.
     Query → sirve para hacer consultas sobre los datos (usando HQL, SQL o Criteria).
 
-## Idea
+## Concepto Final
 
 La Arquitectura habla de los componentes que permiten esa interacción con la base de datos.

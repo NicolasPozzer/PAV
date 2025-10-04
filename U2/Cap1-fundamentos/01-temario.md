@@ -1,6 +1,6 @@
 # Temario
 
-1. Fundamentos y Arquitectura
+1. Fundamentos
     ¿Qué es Hibernate y para qué sirve?
     Diferencia entre Hibernate y JDBC.
     Concepto de ORM (Object Relational Mapping).

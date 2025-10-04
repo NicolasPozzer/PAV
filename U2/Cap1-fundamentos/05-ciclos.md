@@ -62,6 +62,6 @@ Un objeto en Hibernate puede estar en tres estados:
     Sigue existiendo en la memoria de Java, pero Hibernate ya no lo sincroniza con la base de datos.
     Se puede volver a asociar más adelante.
 
-## Idea clave
+## Concepto Final
 
 Los Ciclos de vida hablan de cómo vive un objeto Java respecto a Hibernate.
