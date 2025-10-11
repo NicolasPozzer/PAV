@@ -1,4 +1,4 @@
-# Configuracion
+# Ejercicio
 
 1. NetBeans:       IDE 26
 2. Versión JDK:    Using java version 8.0.392-tem (SDKMAN)
