@@ -4,11 +4,12 @@ En Hibernate, la transacción es la unidad que asegura que un conjunto de operac
 
 Una transacción agrupa operaciones (guardar, actualizar, eliminar) en una sola unidad de trabajo.
 
-Se cumple la regla ACID:
-  Atomaticidad: todo se ejecuta o nada se ejecuta.  
-  Consistencia: la base pasa de un estado válido a otro válido.  
-  Isolamiento: las transacciones concurrentes no interfieren entre sí.  
-  Durabilidad: los cambios confirmados se mantienen aunque falle el sistema.
+## Regla ACID
+
+    1. Atomaticidad: todo se ejecuta o nada se ejecuta.
+    2. Consistencia: la base pasa de un estado válido a otro válido.
+    3. Isolamiento: las transacciones concurrentes no interfieren entre sí.
+    4. Durabilidad: los cambios confirmados se mantienen aunque falle el sistema.
 
 ## Flujo
 

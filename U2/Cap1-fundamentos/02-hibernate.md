@@ -2,7 +2,7 @@
 
 1. Hibernate es un framework de mapeo objeto-relacional (ORM) para Java que permite:
     1. Mapear clases a tablas de una base de datos relacional.
-    2. Automatizar la traducción de operaciones sobre objetos en sentencias SQL, es decir, pasar de una Clase a una sentencia sql.
+    2. Automatizar la traducción de operaciones sobre objetos en sentencias SQL, es decir, pasar de una Clase a una Tabla SQL.
     3. Abstraer al programador de la mayoría del código SQL repetitivo.
 
 De esta manera, Hibernate facilita la persistencia de datos (guardar, consultar, actualizar, eliminar) de manera natural trabajando con objetos Java.  

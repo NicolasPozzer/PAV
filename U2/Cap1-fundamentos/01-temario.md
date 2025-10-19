@@ -16,7 +16,7 @@
     Creación y uso de SessionFactory y Session.
     Manejo de transacciones (Transaction).
 
-3. Mapeos (Relaciones)
+3. Mapeos
     1. Mapeo Propiedad
         Atributos simples (@Column, tipos básicos).
         Claves primarias (@Id, @GeneratedValue).

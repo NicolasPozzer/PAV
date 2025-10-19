@@ -12,6 +12,21 @@ Pensemos en un ORM como un intérprete humano en una conversación entre dos per
 
 ## Desfase de impedancia y ¿por qué Existen los ORMs?
 
+Impedancia en ORM: La Impedancia en ORM es la pérdida inevitable de significado que ocurre al traducir entre dos lenguajes conceptualmente distintos: el mundo de los objetos (rico en comportamiento y relaciones) y el mundo de las bases de datos (estructurado en tablas y registros).
+
+"Impedancia = La fricción conceptual entre paradigmas"
+
+Es como traducir poesía: las palabras pueden pasar de un idioma a otro, pero la esencia, el ritmo y las connotaciones culturales siempre sufren alguna pérdida.
+
+Analogía simple para recordar:
+"Es el 'costo de traducción' entre el lenguaje de los objetos (Java) y el lenguaje de las bases de datos (SQL). Cada vez que cruzamos la frontera entre estos dos mundos, algo del significado original se disipa o transforma."
+
+En esencia:
+De objetos → BD: Pierdes comportamiento, herencia, polimorfismo
+De BD → objetos: Pierdes la estructura relacional pura, integridad referencial inmediata
+
+El ORM es el puente que minimiza esta pérdida, pero nunca la elimina completamente.
+
 Es el conflicto entre dos formas distintas de representar y manipular datos. El problema del Desfase de Impedancia describe el conflicto fundamental entre la forma en que organizamos datos en la programación orientada a objetos (clases, herencia, objetos) y cómo se almacenan en bases de datos relacionales (tablas, filas, columnas).
 
 1. Este tipo de traducción entre estructuras no es trivial. El desfase aparece porque:

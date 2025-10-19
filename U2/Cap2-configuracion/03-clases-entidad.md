@@ -14,10 +14,11 @@ Define cuál atributo será la clave primaria de la tabla. Hibernate usa este ca
 
 Permite mapear un atributo de la clase a una columna específica de la tabla.  
 Se pueden definir propiedades como:
-  Nombre de la columna (name)  
-  Longitud (length)  
-  Si puede ser nulo o no (nullable)  
-  Si es único (unique)  
+
+1. Nombre de la columna (name)  
+2. Longitud (length)  
+3. Si puede ser nulo o no (nullable)  
+4. Si es único (unique)  
 
 ## Conceptualizacion
 
@@ -35,4 +36,6 @@ Se pueden definir propiedades como:
 2. Claridad y mantenibilidad: el mapeo está junto al código de la clase.
 3. Flexibilidad: se pueden personalizar nombres de tablas, columnas y restricciones.  
 
-En resumen: las anotaciones permiten que Hibernate entienda cómo almacenar y recuperar objetos Java desde la base de datos sin necesidad de escribir SQL o configuraciones externas.
+## Resumen
+
+Las anotaciones permiten que Hibernate entienda cómo almacenar y recuperar objetos Java desde la base de datos sin necesidad de escribir SQL o configuraciones externas.

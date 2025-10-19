@@ -2,9 +2,7 @@
 
 Hibernate está compuesto por varios componentes que permiten la interacción entre las clases Java y la base de datos relacional. Su arquitectura se organiza en capas, donde Hibernate se ubica entre la aplicación y la base de datos.
 
-## Componentes principales
-
-### SessionFactory
+## SessionFactory
 
 1. Objeto pesado y único por aplicación. Generalmente implementado como *singleton*
 2. Se crea a partir de la configuración (`hibernate.cfg.xml`)
@@ -19,7 +17,7 @@ SessionFactory factory = new Configuration()
 
 Nota: El patrón Singleton es un patrón de diseño en programación que garantiza que una clase tenga una única instancia en todo el sistema, y que además proporcione un punto de acceso global a esa instancia.
 
-### Session
+## Session
 
 1. Es una unidad de trabajo que representa una conexión con la base de datos.
 2. Es ligera y debe abrirse y cerrarse según la operación.
@@ -30,7 +28,7 @@ Nota: El patrón Singleton es un patrón de diseño en programación que garanti
 Session session = factory.openSession();
 ```
 
-### Transaction
+## Transaction
 
 1. Maneja la lógica de ACID (atomicidad, consistencia, aislamiento, durabilidad).
 2. Garantiza que un conjunto de operaciones se ejecute de forma segura.
@@ -42,7 +40,7 @@ Transaction tx = session.beginTransaction();
 tx.commit();
 ```
 
-### Query
+## Query
 
 Permite ejecutar consultas usando:
 

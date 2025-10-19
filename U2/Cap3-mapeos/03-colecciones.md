@@ -1,18 +1,16 @@
-# Mapeo Colecciones
+# Mapeo de Colecciones
 
-Hibernate permite mapear colecciones Java (List, Set, Map, etc.) para representar relaciones o grupos de valores asociados a una entidad.
+Hibernate permite mapear colecciones Java (List, Set, Map, etc.) para representar relaciones o grupos de valores asociados a una entidad. Estas colecciones pueden contener:
 
-Estas colecciones pueden contener:
-
-- Entidades relacionadas (por ejemplo, una lista de pedidos de un cliente).  
-- Tipos básicos o embebidos (por ejemplo, una lista de teléfonos, etiquetas o direcciones).
+1. Entidades relacionadas. Por ejemplo, una lista de pedidos de un cliente.
+2. Tipos básicos o embebidos. Por ejemplo, una lista de teléfonos, etiquetas o direcciones.
 
 ## Tipos de colecciones admitidas
 
 ### 1. List
 
-- Representa una colección ordenada que puede contener elementos repetidos.  
-- Hibernate genera una columna índice (para mantener el orden).  
+- Representa una colección ordenada que puede contener elementos repetidos.
+- Hibernate genera una columna índice (para mantener el orden).
 - Se usa cuando el orden de inserción o acceso es importante.
 
 Ejemplo conceptual:  
@@ -21,18 +19,18 @@ Cliente
 
 ### 2. Set
 
-- Representa una colección sin elementos duplicados.  
-- Hibernate no mantiene orden explícito.  
-- Es más eficiente cuando solo interesa la unicidad de los elementos.
+- Representa una colección sin elementos duplicados.
+- Hibernate no mantiene orden explícito.
+- Es más eficiente cuando solo interesa la unicidad de los elemento
 
-Ejemplo conceptual:  
+Ejemplo conceptual:
 Persona
 └── Set String correos
 
 ### 3. Map
 
-- Permite almacenar pares clave-valor.  
-- Útil cuando se requiere asociar un valor a una clave específica (por ejemplo, configuración o preferencias).  
+- Permite almacenar pares clave-valor.
+- Útil cuando se requiere asociar un valor a una clave específica (por ejemplo, configuración o preferencias).
 
 Ejemplo conceptual:  
 Usuario
